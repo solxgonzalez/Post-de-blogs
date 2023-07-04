@@ -12,5 +12,3 @@ ________________________________________________________________________________
 ![imagen](https://github.com/solxgonzalez/Post-de-blogs/blob/master/post-de-blogs.png?raw=true)
 
 <img src="post-de-blogs.png" width="500">
-
-
