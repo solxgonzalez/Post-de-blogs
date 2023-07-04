@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagen-fondo  {
+    background:  rgb(248, 244, 244) url(https://img.redshio2e.com/gestor_web/webs/galeria_imagen/gw-galeria-imagen-28-1-10.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* html {
+    background:  rgb(248, 244, 244) url(https://img.redshio2e.com/gestor_web/webs/galeria_imagen/gw-galeria-imagen-28-1-10.jpg)  fixed no-repeat; 
+}*/
+
+body {
+    height: 100%;
+    background-color: rgb(248, 244, 244);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container {
+    max-width: 70%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1, h2 {
+    text-align: center;
+    color: crimson;
+}
+
+.intro {
+    text-align: justify;
+    font-size: 1.2em;
+    color: dimgrey;
+    margin: 20px 0 60px 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 0 7px 20px rgb(184, 113, 113);
+    margin: 10px 0 50px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 20px 0 50px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(143, 34, 34);
+}
+
+.previews-blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 60%;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgreen;
+    border-left: 5px solid lightgreen;
+    border-radius: 10px;
+    padding: 10px 20px;
+    gap: 15px;   
+}
+
+.info-articulo {
+    font-size: 0.95em;
+    color: rgb(80, 77, 77);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(143, 34, 34);
+    font-weight: bold;
+}
+
+
+@media (max-width: 900px) {
+
+    body {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    body {
+        font-size: 10px
+    }
+}
+
